@@ -2,11 +2,6 @@ import sys
 from os import path
 
 
-def test_import_new():
-    """import gnureadline without touching sys.path"""
-    import gnureadline
-
-
 def test_import():
     """A very basic unittest; can we 'import readline'?"""
     msg = r'''

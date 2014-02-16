@@ -3,7 +3,7 @@ test:
 	tox
 
 clean:
-	-rm -rf build dist rl/readline-lib
+	-rm -rf build dist
 
 .PHONY: test clean
 
